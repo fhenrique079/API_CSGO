@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.moneytimes.com.br/uploads/2025/10/counter-stricke-2-divulgacao-steam.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  min-height: 100vh; /* Ocupa a altura inteira da janela do navegador */
+  box-sizing: border-box;
+
+}
